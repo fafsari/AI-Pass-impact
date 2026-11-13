@@ -1,0 +1,22 @@
+[server]
+# only this computer can open the app (slides may hold donor data)
+address = "localhost"
+# no first-run email question in the terminal
+showEmailPrompt = false
+# whole-slide uploads can be several GB (MB)
+maxUploadSize = 10000
+
+[browser]
+# do not send usage statistics to Streamlit
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#4b2a7b"
+backgroundColor = "#fbfafc"
+secondaryBackgroundColor = "#f3eef8"
+textColor = "#22192b"
+borderColor = "#e6e0ec"
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+headingFont = "Newsreader:https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
